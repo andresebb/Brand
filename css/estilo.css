@@ -90,5 +90,17 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
 .description_container{
   display: flex;
   justify-content: space-around;
-  background:
+  margin-top: 180px;
+}
+
+.description_box{
+
+  padding: 15px;
+  text-align: center;
+}
+
+.image_description{
+  width: 112px;
+  height: 110px;
+  text-align: center;
 }
