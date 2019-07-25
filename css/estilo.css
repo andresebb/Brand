@@ -85,6 +85,10 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
   background-color: #529e13;
 }
 
-p{
-  color: #dad1d1;
+/*Seccion de descripcion de nuestros gatos */
+
+.description_container{
+  display: flex;
+  justify-content: space-around;
+  background:
 }
