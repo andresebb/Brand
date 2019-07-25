@@ -4,9 +4,7 @@ body{
   font-family: helvetica;
 }
 
-figure{
-  margin: 0;
-}
+
 
 .header_container{
   background: #6EC427;
@@ -105,16 +103,4 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
   text-align: center;
 }
 
-.mentions{
-  display: flex;
-  justify-content: space-around;
-}
-.mentios_box{
-  background: #026FFF;
-}
-
-.mentios_title{
-  text-align: center;
-  margin-top: 150px;
-  margin-bottom: 80px;
-}
+/*Mencioness*/
