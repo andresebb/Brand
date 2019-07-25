@@ -40,6 +40,7 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
   text-align: center;
   margin-top: 90px;
   margin-bottom: 90px;
+  font-family: "Cinzel"
 }
 
 .products{
@@ -59,7 +60,9 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
 .product .content{
   background: #026FFF;
   padding: 15px;
-  box-shadow: 0 0 1px #c1bcbc
+  box-shadow: 0 0 1px #c1bcbc;
+  color: #d4d2d2;
+  text-align: center;
 
 }
 
@@ -88,7 +91,7 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
 .description_container{
   display: flex;
   justify-content: space-around;
-  margin-top: 180px;
+  padding-top: 180px;
 }
 
 .description_box{
@@ -104,3 +107,46 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
 }
 
 /*Mencioness*/
+.mentios_title{
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 80px;
+  font-family: "Montserrat"
+}
+
+.mentions{
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 0;
+}
+
+.mentions_box{
+  overflow: hidden;
+}
+
+figure{
+  margin: 0;
+  text-align: center;
+}
+.text_mentions{
+  padding: 15px;
+  background: white;
+  position: relative;
+  text-align: center;
+}
+.image_mentions{
+  align-items: center;
+  width: 130px;
+  height: 120px;
+  border-radius: 80px;
+
+}
+
+p{
+  font-family: "Montserrat";
+  font-size: 17
+}
+
+.border{
+  border-left: 20px solid #026FFF;
+}
