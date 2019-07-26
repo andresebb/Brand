@@ -49,13 +49,13 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
   background-size: cover;  /*Sirve para que ocupe el tamano del div*/
   background-position: center top;
   padding: 25%;
-  padding-bottom: 5%;
+  padding-bottom: 0;
   display: flex;
 }
 
 .product{
   padding: 10px;
-  margin-top: -380px;
+  margin-top: -370px;
 }
 .product .content{
   background: #026FFF;
