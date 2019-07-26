@@ -1,0 +1,48 @@
+
+.fadeIn{
+  animation-duration: 4s;
+  animation-fill-mode: both; /*Con esto los keyframe se cumple de ida y de regresp*/
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {      /*Esta animacion hace que el tipo pase de poca o opacidad a bastante*/
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.fadeInDown{
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown { /*La barra del header sale de arriba a abajo*/
+  from{
+    opacity: 0;
+    transform: translate3d(0,-100%,0);
+  }
+   to{
+     opacity: 1;
+     transform: translate3d(0,0,0);
+   }
+}
+
+.fadeInUp{
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}
+@keyframes fadeInUp { /*la seccion del hero va de abajo hacia arriba*/
+  from{
+    opacity: 0;
+    transform: translate3d(0,100%,0);
+  }
+   to{
+     opacity: 1;
+     transform: translate3d(0,0,0);
+   }
+}
