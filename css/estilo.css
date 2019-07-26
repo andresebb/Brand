@@ -109,7 +109,7 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
 /*Mencioness*/
 .mentios_title{
   text-align: center;
-  margin-top: 150px;
+  margin-top: 80px;
   margin-bottom: 80px;
   font-family: "Montserrat"
 }
@@ -153,4 +153,18 @@ p{
 
 .border{
   border-left: 20px solid #026FFF;
+}
+
+footer{
+  background: #252731;
+  height: 50px;
+}
+
+footer p{
+    color: white;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    font-size: 14px;
 }
