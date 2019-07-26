@@ -1,6 +1,9 @@
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 
+  nav ol{
+    font-size: 13px
+  }
   .products{
     display: inherit;
     height: auto;
@@ -18,5 +21,9 @@
 
   .description_container, .mentions{
     display: inline;
+  }
+
+  .mentions_box p{
+    font-size: 17px;
   }
 }
