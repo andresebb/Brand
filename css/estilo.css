@@ -157,12 +157,22 @@ p{
 
 
 /*--------------------- MODULO VENTA*/
-
+.container{
+  margin-top: 100px;
+  margin-bottom: 100px
+}
 .modulo_pago{
-  background: #026FFF;
   padding: 10px;
   box-shadow: 0 0 3px #c1bcbc;
   height: 300px;
+}
+
+.modulo_pago p{
+  font-size: 15px;
+}
+
+.modulo_pago h3{
+  text-align: center;
 }
 
 .casilla{
