@@ -47,15 +47,22 @@
           </div>
 
           <div class="col-7">
-          <div class="modulo_pago">
-            <h3>Ingrese sus datos</h3>
-            <p>Nombre y Apellido</p>
-            <input type="text" class="casilla" placeholder="Nombre y apellido">
-            <p>Email</p>
-            <input type="text" class="casilla" placeholder="Email">
-            <p>Pais o Region</p>
-            <input type="text" class="casilla" placeholder="Pais o Regin">
-          </div>
+            <div class="modulo_pago">
+              <h3>Ingrese sus datos</h3>
+              <form action="suscription/" method="post">
+                <label for="name"> <p>Nombre y Apellido</p> </label>
+                <input type="text" id="name" class="casilla" placeholder="Nombre y apellido"/>
+
+                <label for="email"><p>Email</p></label>
+                <input type="text" id="email" class="casilla" placeholder="Email"/>
+
+                <label for="country"> <p>Pais o Region</p> </label>
+                <input type="text" id="country" class="casilla" placeholder="Pais o Region"/>
+
+                <button type="submit" class="button">Confirmar pago</button>
+              </form>
+            </div>
+
           </div>
 
       </div>
@@ -63,9 +70,8 @@
 
 
 
-
     <footer>
-        <p>Design by: @andresebb</p>
+        <p>Designed by: @andresebb</p>
     </footer>
   </body>
 </html>

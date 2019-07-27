@@ -127,6 +127,7 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
 figure{
   margin: 0;
   text-align: center;
+  margin-top: 30px;
 }
 .text_mentions{
   padding: 15px;
@@ -164,7 +165,8 @@ p{
 .modulo_pago{
   padding: 10px;
   box-shadow: 0 0 3px #c1bcbc;
-  height: 300px;
+  height: 356px;
+
 }
 
 .modulo_pago p{
@@ -177,10 +179,27 @@ p{
 
 .casilla{
   width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 0px;
   background: #c5bdbd;
   height: 30px;
+}
+
+.button{
+  background: #6EC427;
+  width: 100%;
+  padding: 10px;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  color: white;
+  border: 0px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+button:hover{
+  background: #529e13;
 }
 /*--------------------- MODULO VENTA*/
 
