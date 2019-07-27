@@ -60,7 +60,7 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
 .product .content{
   background: #026FFF;
   padding: 15px;
-  box-shadow: 0 0 1px #c1bcbc;
+  box-shadow: 0 0 3px #c1bcbc;
   color: #d4d2d2;
   text-align: center;
 
@@ -154,6 +154,25 @@ p{
 .border{
   border-left: 20px solid #026FFF;
 }
+
+
+/*--------------------- MODULO VENTA*/
+
+.modulo_pago{
+  background: #026FFF;
+  padding: 10px;
+  box-shadow: 0 0 3px #c1bcbc;
+  height: 300px;
+}
+
+.casilla{
+  width: 100%;
+  border-radius: 5px;
+  border: 0px;
+  background: #c5bdbd;
+  height: 30px;
+}
+/*--------------------- MODULO VENTA*/
 
 footer{
   background: #252731;
