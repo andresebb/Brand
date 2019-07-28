@@ -127,7 +127,6 @@ nav li a:hover{ /*Esto es para que cuanto te poses en el link cambie de color*/
 figure{
   margin: 0;
   text-align: center;
-  margin-top: 30px;
 }
 .text_mentions{
   padding: 15px;
@@ -169,6 +168,9 @@ p{
 
 }
 
+.imagen_pago{
+  margin-top: 30px;
+}
 .modulo_pago p{
   font-size: 15px;
 }
