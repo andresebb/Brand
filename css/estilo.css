@@ -165,6 +165,7 @@ p{
   padding: 10px;
   box-shadow: 0 0 3px #c1bcbc;
   height: 356px;
+  /* box-sizing: border-box;  indica que tiene que respetar el tamano de la caja */
 
 }
 
