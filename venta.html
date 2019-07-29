@@ -49,17 +49,19 @@
           <div class="col-7">
             <div class="modulo_pago">
               <h3>Ingrese sus datos</h3>
-              <form action="https://www.google.com">
+              <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DQ8VQR8DCDT4J" method="post">
                 <label for="name"> <p>Nombre y Apellido</p> </label>
-                <input type="text" id="name" class="casilla" placeholder="Nombre y apellido"/>
+                <input type="text" name="name" class="casilla" placeholder="Nombre y apellido"/>
 
                 <label for="email"><p>Email</p></label>
-                <input type="email" id="email" class="casilla" placeholder="Email"/>
+                <input type="email" name="email" class="casilla" placeholder="Email"/>
 
                 <label for="country"> <p>Pais o Region</p> </label>
-                <input type="text" id="country" class="casilla" placeholder="Pais o Region"/>
+                <input type="text" name="country" class="casilla" placeholder="Pais o Region"/>
 
                 <button type="submit" class="button">Confirmar pago</button>
+
+
               </form>
             </div>
 
