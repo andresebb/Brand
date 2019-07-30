@@ -206,6 +206,21 @@ button:hover{
 }
 /*--------------------- MODULO VENTA*/
 
+/*--------------------- FAQ*/
+
+.faq_container{
+  padding: 20px;
+  margin: 20px 0px
+}
+
+.faq h1{
+  text-align: center;
+}
+
+
+/*--------------------- FAQ*/
+
+
 footer{
   background: #252731;
   height: 50px;
